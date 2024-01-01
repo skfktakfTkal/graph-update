@@ -177,6 +177,8 @@ body {
     height: 20px;
     margin-bottom: 10px;
     text-align: center;
+	display: flex;/* 그래프를 왼쪽에서 오른쪽으로 표시 */
+    align-items: center;
 }
 
 .bar {
@@ -189,6 +191,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
+	margin-right: auto;
 }
 
 .blurry-bar {
